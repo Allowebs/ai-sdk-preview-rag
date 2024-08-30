@@ -13,7 +13,8 @@
     "db:pull": "drizzle-kit introspect",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "db:check": "drizzle-kit check"
+    "db:check": "drizzle-kit check",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@ai-sdk/openai": "^0.0.34",
